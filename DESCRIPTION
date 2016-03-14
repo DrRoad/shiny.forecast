@@ -1,8 +1,19 @@
 Package: shiny.forecast
-Title: What the Package Does (one line, title case)
+Title: Forecast App with Shiny Interface
 Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-Depends: R (>= 3.2.3)
-License: What license is it under?
+Authors@R: person("Benjamin", "Maher", email = "ben@benjaminmaher.com", role = c("aut", "cre"))
+Description: Graphical interface for forecasting, cross validating and bagging timeseries forecasts.
+     Designed for product sales forecasting.  Heavily relies on R. Hyndmans' forecast package.
+Depends:
+     R (>= 3.2.3),
+     data.table,
+     RODBC,
+     dplyr,
+     forecast,
+     shiny,
+     ggplot2,
+     googleVis,
+     scales,
+     xts
+License: MIT
 LazyData: true
