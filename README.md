@@ -1,2 +1,2 @@
-# shiny_forecast
+# shiny.forecast
 Forecast App with Shiny Interface
