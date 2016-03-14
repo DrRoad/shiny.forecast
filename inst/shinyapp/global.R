@@ -12,7 +12,7 @@ tblHOL <- fread("data/holidays.csv")
      tblHOL[,HOLIDAY:=as.factor(EASTER)]
      setkey(tblHOL,WK_END_DT)
 
-TOYS <- readRDS("data/toys.RDS")
+TOYS <- readRDS("data/toys.rds")
 setkey(TOYS,WK_END_DT)
 TOYS <- tblHOL[TOYS]
 TOYS[is.na(HOLIDAY_LEN),HOLIDAY_LEN:=0]
