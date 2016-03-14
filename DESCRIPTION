@@ -7,7 +7,6 @@ Description: Graphical interface for forecasting, cross validating and bagging t
 Depends:
      R (>= 3.2.3),
      data.table,
-     RODBC,
      dplyr,
      forecast,
      shiny,
@@ -15,5 +14,6 @@ Depends:
      googleVis,
      scales,
      xts
+Suggests: RODBC
 License: MIT
 LazyData: true
